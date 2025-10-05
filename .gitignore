@@ -1,8 +1,39 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-/misc.xml
-/modules.xml
-/dataset(spotify_139k_).iml
-/vcs.xml
+# IDE/Editor Files (IntelliJ/VS Code/PyCharm)
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
 
+# Python/Generated Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Data/Output Files (your datasets and plots)
+*.csv  # Or specify: 2000.csv, 2010.csv if you want to commit them
+*.jsonl
+*.iml  # Already have, but explicit
+*.png  # Ignore all generated PNG plots
+*.jpg
+*.pdf
+
+# OS/Backup Files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Logs/Debug
+*.log
+debug/
+
+# Dataset-specific (if you want to exclude the full dataset)
+dataset(spotify 39K).iml
