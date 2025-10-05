@@ -31,7 +31,7 @@ plt.ylabel("average value", fontsize = 12)
 plt.xlabel("decade", fontsize = 12)
 plt.legend(title = "Attributes")
 plt.grid(axis = "y", linestyle = "--", alpha = 0.6)
-plt.savefig("average_song_attributes_by_decades.png", dpi = 300, bbox_inches = "tight")
+plt.savefig("images/average_song_attributes_by_decades.png", dpi = 300, bbox_inches = "tight")
 plt.show()
 
 #popularity
@@ -42,6 +42,7 @@ plt.title("Popularity Distribution (2000s vs 2010s)")
 plt.xlabel("Popularity")
 plt.ylabel("Number of Songs")
 plt.legend()
+plt.savefig("images/Popularity_Distribution_(2000s_vs_2010s).png", dpi = 300, bbox_inches = "tight")
 plt.show()
 
 #energy vs danceibility
@@ -54,6 +55,7 @@ plt.xlabel("energy")
 plt.ylabel("Danceablity")
 plt.grid(axis = "x" , linestyle = "--", alpha = 0.6)
 plt.legend()
+plt.savefig("images/energy_vs_danceabilty.png", dpi = 300, bbox_inches = "tight")
 plt.show()
 
 #top 10 comparission
@@ -64,6 +66,7 @@ plt.title("Top 10 Genres Comparison")
 plt.xlabel("Number of Songs")
 plt.legend()
 plt.tight_layout()
+plt.savefig("images/top10_songs.png", dpi = 300, bbox_inches = "tight")
 plt.show()
 
 
