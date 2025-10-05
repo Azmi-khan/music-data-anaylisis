@@ -1,8 +1,6 @@
 ﻿# music-data-anaylisis
 # Music Data Analysis: Spotify Trends (2000s vs 2010s)
 
-![Spotify Music Analysis Banner](https://via.placeholder.com/800x200/1DB954/FFFFFF?text=Music+Data+Analysis)  
-*(Replace with a custom image for better visuals!)*
 
 ## Overview
 This Python project explores Spotify music trends from the 2000s and 2010s using audio attributes like energy, danceability, BPM, and popularity. It loads datasets, performs basic cleaning, generates summary statistics and visualizations, and includes an interactive Tkinter GUI for genre-based song recommendations via Plotly charts.
@@ -137,3 +135,4 @@ MIT License – feel free to use, modify, and distribute. See [LICENSE](LICENSE)
 
 *Last Updated: October 2025*  
 ⭐ Star the repo if it helps! 🚀
+
